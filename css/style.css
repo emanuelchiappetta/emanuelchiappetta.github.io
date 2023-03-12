@@ -1,0 +1,66 @@
+html {
+    font-size: 13.2px;
+}
+body {
+    margin: 1rem .9rem;
+}
+i.fa {
+    font-size: 1.6rem;
+}
+table tr:first-child td {
+    border: none;
+}
+#foto {
+    /*filter: grayscale(100%);*/
+    border: 1.4px #ccc solid;
+    padding: 8px;
+}
+#mi-nombre {
+    font-family: 'Roboto Mono', monospace;
+    margin-top: .9rem;
+    font-size: 2.5rem;
+}
+#mi-nombre + hr {
+    margin-bottom: 1rem;
+}
+#mi-nombre, .h5 {
+    font-weight: 500;
+}
+table.table {
+    margin-bottom: 0 !important;
+}
+ul.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding: 0;
+}
+ul.skills-list li {
+    min-width: 26%;
+    margin: 1% 0;
+    text-align: center;
+}
+.card-header {
+    font-weight: bold;
+}
+.card-header i.fa {
+    margin-right: 5px;
+}
+.item {
+    margin-bottom: .7rem;
+}
+.subtitulo {
+    font-weight: bold;
+}
+
+.subtitulo, .detalle {
+    font-style: italic;
+    margin: 0;
+}
+
+.descripcion > p:last-child {
+    margin-bottom: 1.1rem;
+}
